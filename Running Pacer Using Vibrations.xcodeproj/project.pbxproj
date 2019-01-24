@@ -12,6 +12,8 @@
 		2206371D21F9354300E0753B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206371B21F9354300E0753B /* Main.storyboard */; };
 		2206371F21F9354600E0753B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2206371E21F9354600E0753B /* Assets.xcassets */; };
 		2206372221F9354600E0753B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206372021F9354600E0753B /* LaunchScreen.storyboard */; };
+		2206372A21F9420600E0753B /* SpeedometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206372921F9420600E0753B /* SpeedometerViewController.swift */; };
+		2206372C21F969A300E0753B /* RunLogTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206372B21F969A300E0753B /* RunLogTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2206371E21F9354600E0753B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2206372121F9354600E0753B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2206372321F9354600E0753B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2206372921F9420600E0753B /* SpeedometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerViewController.swift; sourceTree = "<group>"; };
+		2206372B21F969A300E0753B /* RunLogTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				2206371721F9354300E0753B /* AppDelegate.swift */,
 				2206371921F9354300E0753B /* ViewController.swift */,
+				2206372921F9420600E0753B /* SpeedometerViewController.swift */,
+				2206372B21F969A300E0753B /* RunLogTableView.swift */,
 				2206371B21F9354300E0753B /* Main.storyboard */,
 				2206371E21F9354600E0753B /* Assets.xcassets */,
 				2206372021F9354600E0753B /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				2206371A21F9354300E0753B /* ViewController.swift in Sources */,
 				2206371821F9354300E0753B /* AppDelegate.swift in Sources */,
+				2206372C21F969A300E0753B /* RunLogTableView.swift in Sources */,
+				2206372A21F9420600E0753B /* SpeedometerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
