@@ -38,14 +38,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="43"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" textContentType="cc-number"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="00" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4JN-Fb-dH0">
                                 <rect key="frame" x="194" y="229" width="165" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="43"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" secureTextEntry="YES" textContentType="postal-code"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOx-ry-5sX">
                                 <rect key="frame" x="174" y="229" width="26" height="51"/>
@@ -69,7 +69,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arO-zQ-7v7">
-                                <rect key="frame" x="82" y="377" width="211" height="80"/>
+                                <rect key="frame" x="82" y="342" width="211" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="21"/>
                                 <state key="normal" title="Start my run">
@@ -109,7 +109,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIY-69-Otq">
-                                <rect key="frame" x="121" y="497" width="133" height="38"/>
+                                <rect key="frame" x="121" y="475" width="133" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
                                 <state key="normal" title="Finish run">
@@ -119,17 +119,26 @@
                                     <action selector="finishRun:" destination="rab-gG-3Sn" eventType="touchUpInside" id="vxJ-3C-0oa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XeG-ut-Eo4">
+                                <rect key="frame" x="16" y="69" width="343" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zHx-aG-sgY"/>
                     </view>
                     <connections>
+                        <outlet property="currentPace" destination="XeG-ut-Eo4" id="eZx-qV-lo7"/>
                         <outlet property="goalTime" destination="cQu-bm-ljv" id="wi2-nF-8GA"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goHome" id="9Om-rE-J8i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ex-am-NhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="134"/>
+            <point key="canvasLocation" x="1093.5999999999999" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154B85B1AAC43B7762A8D4D3 /* Pods_Running_Pacer_Using_Vibrations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A75CD67AEB278E0D733A0D5 /* Pods_Running_Pacer_Using_Vibrations.framework */; };
 		2206371821F9354300E0753B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206371721F9354300E0753B /* AppDelegate.swift */; };
 		2206371A21F9354300E0753B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206371921F9354300E0753B /* ViewController.swift */; };
 		2206371D21F9354300E0753B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206371B21F9354300E0753B /* Main.storyboard */; };
 		2206371F21F9354600E0753B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2206371E21F9354600E0753B /* Assets.xcassets */; };
 		2206372221F9354600E0753B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206372021F9354600E0753B /* LaunchScreen.storyboard */; };
 		2206372A21F9420600E0753B /* SpeedometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206372921F9420600E0753B /* SpeedometerViewController.swift */; };
-		2206372C21F969A300E0753B /* RunLogTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2206372B21F969A300E0753B /* RunLogTableView.swift */; };
+		222C38EF22050D0E001713B5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C38EE22050D0E001713B5 /* LocationManager.swift */; };
+		222C38F122050F1B001713B5 /* FormatDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C38F022050F1B001713B5 /* FormatDisplay.swift */; };
+		222C38F3220514FD001713B5 /* UnitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C38F2220514FD001713B5 /* UnitExtensions.swift */; };
+		2239614521FA90F70008661B /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2239614421FA90F70008661B /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033E55445E70CA7BA6BEAE64 /* Pods-Running Pacer Using Vibrations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running Pacer Using Vibrations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Running Pacer Using Vibrations/Pods-Running Pacer Using Vibrations.debug.xcconfig"; sourceTree = "<group>"; };
+		08227C8F4A1D0E217C0C7450 /* Pods-Running Pacer Using Vibrations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Running Pacer Using Vibrations.release.xcconfig"; path = "Pods/Target Support Files/Pods-Running Pacer Using Vibrations/Pods-Running Pacer Using Vibrations.release.xcconfig"; sourceTree = "<group>"; };
+		1A75CD67AEB278E0D733A0D5 /* Pods_Running_Pacer_Using_Vibrations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Running_Pacer_Using_Vibrations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2206371421F9354300E0753B /* Running Pacer Using Vibrations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Running Pacer Using Vibrations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2206371721F9354300E0753B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2206371921F9354300E0753B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +32,10 @@
 		2206372121F9354600E0753B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2206372321F9354600E0753B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2206372921F9420600E0753B /* SpeedometerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerViewController.swift; sourceTree = "<group>"; };
-		2206372B21F969A300E0753B /* RunLogTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogTableView.swift; sourceTree = "<group>"; };
+		222C38EE22050D0E001713B5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		222C38F022050F1B001713B5 /* FormatDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDisplay.swift; sourceTree = "<group>"; };
+		222C38F2220514FD001713B5 /* UnitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtensions.swift; sourceTree = "<group>"; };
+		2239614421FA90F70008661B /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154B85B1AAC43B7762A8D4D3 /* Pods_Running_Pacer_Using_Vibrations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				2206371621F9354300E0753B /* Running Pacer Using Vibrations */,
 				2206371521F9354300E0753B /* Products */,
+				E7126DBF563E8C4E0B45456F /* Pods */,
+				389306A63F9C4AF25A97D513 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +72,59 @@
 			isa = PBXGroup;
 			children = (
 				2206371721F9354300E0753B /* AppDelegate.swift */,
-				2206371921F9354300E0753B /* ViewController.swift */,
-				2206372921F9420600E0753B /* SpeedometerViewController.swift */,
-				2206372B21F969A300E0753B /* RunLogTableView.swift */,
-				2206371B21F9354300E0753B /* Main.storyboard */,
+				2239613F21FA8E920008661B /* Model */,
+				2239614021FA8E9A0008661B /* View */,
+				2239614121FA8E9F0008661B /* Controller */,
 				2206371E21F9354600E0753B /* Assets.xcassets */,
-				2206372021F9354600E0753B /* LaunchScreen.storyboard */,
 				2206372321F9354600E0753B /* Info.plist */,
 			);
 			path = "Running Pacer Using Vibrations";
+			sourceTree = "<group>";
+		};
+		2239613F21FA8E920008661B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				222C38EE22050D0E001713B5 /* LocationManager.swift */,
+				222C38F022050F1B001713B5 /* FormatDisplay.swift */,
+				222C38F2220514FD001713B5 /* UnitExtensions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2239614021FA8E9A0008661B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2206371B21F9354300E0753B /* Main.storyboard */,
+				2206372021F9354600E0753B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2239614121FA8E9F0008661B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2206371921F9354300E0753B /* ViewController.swift */,
+				2206372921F9420600E0753B /* SpeedometerViewController.swift */,
+				2239614421FA90F70008661B /* GaugeView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		389306A63F9C4AF25A97D513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A75CD67AEB278E0D733A0D5 /* Pods_Running_Pacer_Using_Vibrations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7126DBF563E8C4E0B45456F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				033E55445E70CA7BA6BEAE64 /* Pods-Running Pacer Using Vibrations.debug.xcconfig */,
+				08227C8F4A1D0E217C0C7450 /* Pods-Running Pacer Using Vibrations.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2206372621F9354600E0753B /* Build configuration list for PBXNativeTarget "Running Pacer Using Vibrations" */;
 			buildPhases = (
+				FDD2C706B5377FDC692C645B /* [CP] Check Pods Manifest.lock */,
 				2206371021F9354300E0753B /* Sources */,
 				2206371121F9354300E0753B /* Frameworks */,
 				2206371221F9354300E0753B /* Resources */,
+				CEFBC68A18192E1F1FD9851A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -102,6 +161,11 @@
 				TargetAttributes = {
 					2206371321F9354300E0753B = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,6 +200,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEFBC68A18192E1F1FD9851A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Running Pacer Using Vibrations/Pods-Running Pacer Using Vibrations-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Follower/Follower.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Follower.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Running Pacer Using Vibrations/Pods-Running Pacer Using Vibrations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD2C706B5377FDC692C645B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Running Pacer Using Vibrations-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2206371021F9354300E0753B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,7 +254,10 @@
 			files = (
 				2206371A21F9354300E0753B /* ViewController.swift in Sources */,
 				2206371821F9354300E0753B /* AppDelegate.swift in Sources */,
-				2206372C21F969A300E0753B /* RunLogTableView.swift in Sources */,
+				222C38EF22050D0E001713B5 /* LocationManager.swift in Sources */,
+				222C38F122050F1B001713B5 /* FormatDisplay.swift in Sources */,
+				2239614521FA90F70008661B /* GaugeView.swift in Sources */,
+				222C38F3220514FD001713B5 /* UnitExtensions.swift in Sources */,
 				2206372A21F9420600E0753B /* SpeedometerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +402,7 @@
 		};
 		2206372721F9354600E0753B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033E55445E70CA7BA6BEAE64 /* Pods-Running Pacer Using Vibrations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +421,7 @@
 		};
 		2206372821F9354600E0753B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08227C8F4A1D0E217C0C7450 /* Pods-Running Pacer Using Vibrations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
